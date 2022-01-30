@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-</head>
-<body>
-
-    <caption><b>User Information</b></caption>
+    <style>
+      .row {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <caption>
+      <b>User Information</b>
+    </caption>
     <table border="1">
+      <thead>
+        <tr class="row">
+          <th>Name</th>
+          <th>Country</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Abhishek</td>
+          <td>UK</td>
+          <td>London</td>
+        </tr>
+        <tr>
+          <td>Anuj</td>
+          <td>Amsterdam</td>
+          <td>South-Lake</td>
+        </tr>
 
-        <thead> 
-            <tr>
-            <th> Name </th>
-            <th> Country</th>
-            <th> State</th>
-            </tr>
-        </thead>
-       <tbody>
         <tr>
-            <td>Abhishek</td>
-            <td>UK</td>
-            <td>London</td>
+          <td>Amit</td>
+          <td>India</td>
+          <td>Delhi</td>
         </tr>
-        <tr>
-            <td>Anuj</td>
-            <td>Amsterdam</td>
-            <td>South-Lake</td>
-        </tr>
-        
-        <tr>
-            <td>Amit</td>
-            <td>India</td>
-            <td>Delhi</td>
-        </tr>
-    </tbody>
+      </tbody>
     </table>
-    
-</body>
+  </body>
 </html>
